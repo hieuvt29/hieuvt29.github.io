@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-align: center;
+  text-align: left;
 
   @include mobile {
     line-height: 1.4;
@@ -54,6 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  text-align: center;
+
   a {
     color: inherit;
   }
@@ -275,12 +277,16 @@ p > img {
   @include mobile {
     text-align: center;
   }
+
+  .avatar-block {
+    margin-top: 20px;
+  }
 }
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   margin-right: 15px;
 
   @include mobile {
@@ -290,7 +296,11 @@ p > img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 100px;
+    transition: transform .2s; /* Animation */
+  }
+  img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 }
 
@@ -301,6 +311,9 @@ p > img {
     float: none;
     display: block;
     margin: 0 auto;
+  }
+  .author-info {
+    font-size: 16px;
   }
 }
 
@@ -330,10 +343,12 @@ p > img {
 }
 
 nav {
-  float: right;
+  // float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  text-align: right;
+  
 
   @include mobile {
     float: none;
