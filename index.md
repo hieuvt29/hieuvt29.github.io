@@ -19,7 +19,7 @@ Jun. 2018 – Apr. 2019 | Software developer at VC Corporation
 ---
 Jun. 2017 – Jun. 2019 | Undergraduate research assistant at Data Science Lab, School of Information and Communication Technology, HUST
 ---
-Aug. 2014 – Mar. 2019 | Undergraduate students at Hanoi University of Science and Technology (HUST)
+Aug. 2014 – Mar. 2019 | Student at Hanoi University of Science and Technology (HUST). I graduated one semester earlier than the standard program with an Excellence Degree of Engineer in Information Systems
 
 " | split: '---' 
 %}
@@ -35,17 +35,17 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 assign publications = "
 
 Distributionally Robust Fair Principal Components via Geodesic Descents |
-__*Hieu Vu__, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
+__Hieu Vu__*, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
 *preprint, 2021* |
 pdfs/2021_RFPCA.pdf
 ---
 Bayesian Metric Learning for Robust Training of Deep Models under Noisy Labels |
-__*Hieu Vu__, Toan Tran, Gustavo Carneiro |
+__Hieu Vu__*, Toan Tran, Gustavo Carneiro |
 *preprint, 2020* |
 pdfs/2020_BDML.pdf
 ---
 MAP Estimation With Bernoulli Randomness, and Its Application to Text Analysis and Recommender Systems |
-Xuan Bui, __*Hieu Vu__, Oanh Nguyen, Khoat Than |
+Xuan Bui, __Hieu Vu__*, Oanh Nguyen, Khoat Than |
 *IEEE Access, 2020* |
 https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf
 
