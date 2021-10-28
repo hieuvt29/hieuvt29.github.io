@@ -5,7 +5,7 @@ usemathjax: true
 
 I'm currently a research resident at VinAI Research. 
 
-I am interested in machine learning methods for limited/corrupted supervision data, which is a common scenario due to the expensive labeling costs. Currently, I mainly focus on the techniques of Active Learning for fully exploiting annotated data; Bayesian Inference framework, Self-Supervised learning and Distributionally Robust Optimization for improving the robustness of ML models. 
+I'm curious about machine learning methods for limited/corrupted supervision data, which is a prevalent scenario due to the expensive labeling costs. Currently, I mainly focus on the techniques of Active Learning for selecting informative and diverse data samples to annotate, as well as Bayesian Inference framework, Self-Supervised learning and Distributionally Robust Optimization for enhancing the quality and robustness of ML models.
 
 I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows.
 
@@ -66,12 +66,12 @@ __Excellence scholarship for the academic year of 2018 − 2019__ <br>
 *Granted for top 1% students with highest CPA of School of Information and Communication Technology, HUST*
 
 # Mentors
-- [Viet-Anh Nguyen]()
-- [Toan Tran]()
-- [Khoat Than]() 
+- [Viet-Anh Nguyen](https://vietanhnguyen.net)
+- [Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran)
+- [Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ) 
 
 
 # Collaborators
-- [Man-Chung Yue]()
-- [Gustavo Carneiro]()
-- [Xuan Bui]()
+- [Man-Chung Yue](https://manchungyue.com/)
+- [Gustavo Carneiro](https://cs.adelaide.edu.au/~carneiro/)
+- [Xuan Bui](https://scholar.google.com.vn/citations?user=DSLkmeUAAAAJ)
