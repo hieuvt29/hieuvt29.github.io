@@ -35,17 +35,17 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 assign publications = "
 
 Distributionally Robust Fair Principal Components via Geodesic Descents |
-__Hieu Vu__*, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
+__Hieu Vu*__, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
 *preprint, 2021* |
 pdfs/2021_RFPCA.pdf
 ---
 Bayesian Metric Learning for Robust Training of Deep Models under Noisy Labels |
-__Hieu Vu__*, Toan Tran, Gustavo Carneiro |
+__Hieu Vu*__, Toan Tran, Gustavo Carneiro |
 *preprint, 2020* |
 pdfs/2020_BDML.pdf
 ---
 MAP Estimation With Bernoulli Randomness, and Its Application to Text Analysis and Recommender Systems |
-Xuan Bui, __Hieu Vu__*, Oanh Nguyen, Khoat Than |
+Xuan Bui, __Hieu Vu*__, Oanh Nguyen, Khoat Than |
 *IEEE Access, 2020* |
 https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf
 
