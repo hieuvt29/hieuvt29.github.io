@@ -5,7 +5,7 @@ usemathjax: true
 
 I'm currently a research resident at VinAI Research. 
 
-I'm curious about machine learning methods for limited/corrupted supervision data, which is a prevalent scenario due to the expensive labeling costs. Currently, I mainly focus on the techniques of Active Learning for selecting informative and diverse data samples to annotate, as well as Bayesian Inference framework, Self-Supervised learning and Distributionally Robust Optimization for enhancing the quality and robustness of ML models.
+I am interested in data-efficient and robust machine learning methods. Currently, I mainly focus on the techniques of Active Learning for selecting informative samples, the applications of Bayesian Inference and Distributionally Robust Optimization for enhancing the quality and robustness of ML models.
 
 I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows.
 
