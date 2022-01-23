@@ -36,7 +36,7 @@ assign publications = "
 
 Distributionally Robust Fair Principal Components via Geodesic Descents |
 __Hieu Vu*__, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
-*ICLR, 2022* |
+[*ICLR, 2022*](https://openreview.net/forum?id=9NVd-DMtThY) |
 pdfs/2021_RFPCA.pdf
 ---
 Bayesian Metric Learning for Robust Training of Deep Models under Noisy Labels |
