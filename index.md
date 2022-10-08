@@ -71,7 +71,8 @@ __<span style='font-size: 20px'> {{ pub_arr[0] | strip }} </span>__ <br> *{{ pub
 __Excellence scholarship for the academic year of 2018 − 2019__ <br>
 *Granted for top 1% students with highest CPA of School of Information and Communication Technology, HUST*
 
-# Mentors
+# Advisors
+- [Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari)
 - [Viet-Anh Nguyen](https://vietanhnguyen.net)
 - [Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran)
 - [Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ) 
