@@ -2,18 +2,24 @@
 layout: default
 usemathjax: true
 ---
-
+<!-- 
 I'm currently a research resident at VinAI Research. 
 
 I am interested in data-efficient and robust machine learning methods. Currently, I mainly focus on the techniques of Active Learning for selecting informative samples, the applications of Bayesian Inference and Distributionally Robust Optimization for enhancing the quality and robustness of ML models.
 
-I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows.
+I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows. -->
+
+I'm currently a Ph.D. Student at The University of Iowa.
+
+I'm interested in Machine Learning and its application in general, data-efficient and robust machine learning methods in specific. Currently, I mainly focus on generative models for sequential data with physics information from epidemiology problems. Previously, I worked on different ML topics such as Active Learning techniques, Bayesian Neural Networks, and Distributionally Robust Optimization. 
 
 # Biography
 
 {% 
 assign biography = "
-Nov. 2019 – Present | Research Resident at VinAI Research
+Aug. 2022 – Present | Ph.D. Student at The University of Iowa.
+---
+Nov. 2019 – Jun. 2022 | Research Resident & AI Engineer at VinAI Research
 ---
 Jun. 2018 – Apr. 2019 | Software developer at VC Corporation
 ---
