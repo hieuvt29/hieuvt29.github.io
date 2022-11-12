@@ -9,9 +9,9 @@ I am interested in data-efficient and robust machine learning methods. Currently
 
 I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows. -->
 
-I'm currently a Ph.D. Student at The University of Iowa.
+I'm currently a first-year Ph.D. Student at The University of Iowa.
 
-I'm interested in Machine Learning and its application in general, data-efficient and robust machine learning methods in specific. Currently, I mainly focus on generative models for sequential data with physics information from epidemiology problems. Previously, I worked on different ML topics such as Active Learning techniques, Bayesian Neural Networks, and Distributionally Robust Optimization. 
+I'm interested in Machine Learning and its application in general, data-efficient and robust machine learning methods in specific. Currently, I mainly focus on generative models for sequential data with physics information from epidemiology problems. Previously, I worked on different ML topics such as Active Learning techniques, Bayesian Neural Networks, Distributionally Robust Optimization and Fairness problem. 
 
 # Biography
 
