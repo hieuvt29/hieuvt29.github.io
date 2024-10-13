@@ -11,7 +11,7 @@ I am also passionate about deep learning techniques, especially deep generative 
 
 I'm currently a second-year Ph.D. Student at The University of Iowa.
 
-I'm interested in Machine Learning and its application in general, data-efficient and robust machine learning methods in specific. Currently, I mainly focus on deep generative models (VAEs, GANs) for sequential data with physics information from epidemiology problems. Previously, I worked on different ML topics such as Active Learning techniques, Bayesian Neural Networks, Distributionally Robust Optimization and Fairness problem. 
+I am passionate about machine learning and its applications in general. My current focus is enhancing graph neural networks (GNNs) and deep generative models (VAEs, GANs, and Diffusion models) for graph and sequential data. I also have experience with active learning, Bayesian neural networks, and distributionally robust optimization framework. My long-term research goal is to develop data-efficient and robust deep learning models to accelerate their practical applications in real-world scenarios.
 
 # Biography
 
@@ -39,7 +39,11 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 
 {% 
 assign publications = "
-
+Efficient and Effective Implicit Dynamic Graph Neural Network | 
+Yongjian Zhong, __Hieu Vu*__, Tianbao Yang, Bijaya Adhikari |
+[*KDD, 2024*](https://dl.acm.org/doi/abs/10.1145/3637528.3672026) |
+https://arxiv.org/pdb/2406.17894.pdf
+---
 Distributionally Robust Fair Principal Components via Geodesic Descents |
 __Hieu Vu*__, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
 [*ICLR, 2022*](https://openreview.net/forum?id=9NVd-DMtThY) |
@@ -72,13 +76,14 @@ __Excellence scholarship for the academic year of 2018 − 2019__ <br>
 *Granted for top 1% students with highest CPA of School of Information and Communication Technology, HUST*
 
 # Advisors
-- [Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari)
-- [Viet-Anh Nguyen](https://vietanhnguyen.net)
-- [Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran)
-- [Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ) 
-
+- Aug. 2022 - present: [Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari)
+- May. 2021 – Jan. 2022: [Viet-Anh Nguyen](https://vietanhnguyen.net)
+- Nov. 2019 – Jan. 2022: [Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran)
+- Jun. 2017 – Jun. 2019: [Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ) 
 
 # Collaborators
+- [Yongjian Zhong](https://yongjian16.github.io/)
+- [Akash Choudhuri](https://soothysay.github.io/)
 - [Man-Chung Yue](https://manchungyue.com/)
 - [Gustavo Carneiro](https://cs.adelaide.edu.au/~carneiro/)
 - [Xuan Bui](https://scholar.google.com.vn/citations?user=DSLkmeUAAAAJ)
