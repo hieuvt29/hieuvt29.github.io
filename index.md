@@ -9,7 +9,7 @@ I am interested in data-efficient and robust machine learning methods. Currently
 
 I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows. -->
 
-I'm currently a second-year Ph.D. Student at The University of Iowa.
+I'm currently a third-year Ph.D. Student at The University of Iowa.
 
 I am passionate about machine learning and its applications in general. My current focus is enhancing graph neural networks (GNNs) and deep generative models (VAEs, GANs, and Diffusion models) for graph and sequential data. I also have experience with active learning, Bayesian neural networks, and distributionally robust optimization framework. My long-term research goal is to develop data-efficient and robust deep learning models to accelerate their practical applications in real-world scenarios.
 
