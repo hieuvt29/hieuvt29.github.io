@@ -40,7 +40,7 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 {% 
 assign publications = "
 Efficient and Effective Implicit Dynamic Graph Neural Network | 
-Yongjian Zhong, __Hieu Vu*__, Tianbao Yang, Bijaya Adhikari |
+Yongjian Zhong, __Hieu Vu__, Tianbao Yang, Bijaya Adhikari |
 [*KDD, 2024*](https://dl.acm.org/doi/abs/10.1145/3637528.3672026) |
 https://arxiv.org/pdb/2406.17894.pdf
 ---
