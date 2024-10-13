@@ -37,7 +37,7 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 {% assign subinfo = milestone_arr | slice:2, 6 %}
 <ul>
 {% for subs in subinfo %}
-<li style="font-size: small;"> *{{subs | strip}}* </li>
+<li style="font-size: small;"> {{subs | strip}} </li>
 {% endfor %}
 </ul>
 {% endif %}
