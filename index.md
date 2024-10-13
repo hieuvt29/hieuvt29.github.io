@@ -55,7 +55,7 @@ __Hieu Vu*__, Toan Tran, Gustavo Carneiro |
 pdfs/2020_BDML.pdf
 ---
 MAP Estimation With Bernoulli Randomness, and Its Application to Text Analysis and Recommender Systems |
-Xuan Bui, __Hieu Vu*__, Oanh Nguyen, Khoat Than |
+Xuan Bui, __Hieu Vu__, Oanh Nguyen, Khoat Than |
 *IEEE Access, 2020* |
 https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf
 
