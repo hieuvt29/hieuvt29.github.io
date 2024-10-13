@@ -25,20 +25,20 @@ Jun. 2018 – Apr. 2019 | Software developer at VC Corporation
 ---
 Jun. 2017 – Jun. 2019 | Undergraduate research assistant at Data Science Lab, School of Information and Communication Technology, HUST
 ---
-Aug. 2014 – Mar. 2019 | Student at Hanoi University of Science and Technology (HUST). | I graduated one semester earlier than the standard five-year program with an Excellence Degree of Engineer in Information Systems
+Aug. 2014 – Mar. 2019 | Student at Hanoi University of Science and Technology (HUST). I graduated one semester earlier than the standard five-year program with an Excellence Degree of Engineer in Information Systems
 
 " | split: '---' 
 {% for milestone in biography %}
 {% assign milestone_arr = milestone | strip | split: "|" %}
 __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip}}* 
-{% if milestone_arr.size > 2 %}
+<!-- {% if milestone_arr.size > 2 %}
 {% assign subinfo = milestone_arr | slice:2, 6 %}
 {% for subs in subinfo %}
     <ul>
         <li style="font-size: small;"> *{{subs | strip}}* </li>
     </ul>
 {% endfor %}
-{% endif %}
+{% endif %} -->
 {% endfor %}
 
 # Publications
