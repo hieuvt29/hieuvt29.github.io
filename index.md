@@ -35,6 +35,8 @@ Aug. 2014 – Mar. 2019 | Student at Hanoi University of Science and Technology 
 __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip}}* 
 {% if milestone_arr | size > 2 %}
 <br/><p style="font-size: small; margin-left:12px"> *{{milestone_arr[2] | strip}}* </p>
+{% endif %}
+
 {% endfor %}
 
 # Publications
