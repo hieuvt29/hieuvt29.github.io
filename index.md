@@ -32,11 +32,12 @@ Aug. 2014 – Mar. 2019 | Student at Hanoi University of Science and Technology 
 {% assign milestone_arr = milestone | strip | split: "|" %}
 __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip}}* 
 {% if milestone_arr.size > 2 %}
-    {% for subs in milestone_arr[2:] %}
-        <ul>
-            <li style="font-size: small;"> *{{subs | strip}}* </li>
-        </ul>
-    {% endfor %}
+{% assign subinfo = milestone_arr | slice:2, 6 %}
+{% for subs in subinfo %}
+    <ul>
+        <li style="font-size: small;"> *{{subs | strip}}* </li>
+    </ul>
+{% endfor %}
 {% endif %}
 {% endfor %}
 
