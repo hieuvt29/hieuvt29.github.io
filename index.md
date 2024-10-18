@@ -2,16 +2,39 @@
 layout: default
 usemathjax: true
 ---
-<!-- 
-I'm currently a research resident at VinAI Research. 
 
-I am interested in data-efficient and robust machine learning methods. Currently, I mainly focus on the techniques of Active Learning for selecting informative samples, the applications of Bayesian Inference and Distributionally Robust Optimization for enhancing the quality and robustness of ML models.
 
-I am also passionate about deep learning techniques, especially deep generative models like GANs, VAEs, and Normalizing Flows. -->
+# News
 
-I'm currently a third-year Ph.D. Student at The University of Iowa.
+{% 
+assign news = "
+May. 2024 | Our paper on Efficient and Effective Implicit Dynamic Graph Neural Network has been accepted at KDD 2024.
+---
+Aug. 2022 | I have started my Ph.D. journey at The University of Iowa.
+---
+Feb. 2022 | Our paper on Distributionally Robust Fair Principal Components via Geodesic Descents has been accepted at ICLR 2022.
+---
 
-I am passionate about machine learning and its applications in general. My current focus is enhancing graph neural networks (GNNs) and deep generative models (VAEs, GANs, and Diffusion models) for graph and sequential data. I also have experience with active learning, Bayesian neural networks, and distributionally robust optimization framework. My long-term research goal is to develop data-efficient and robust deep learning models to accelerate their practical applications in real-world scenarios.
+" | split: '---' 
+%}
+
+{% for milestone in news %}
+{% assign milestone_arr = milestone | strip | split: "|" %}
+__<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip}}* 
+{% if milestone_arr.size > 2 %}
+{% assign subinfo = milestone_arr | slice:2, 6 %}
+<ul>
+{% for subs in subinfo %}
+<li style="font-size: small;"> {{subs | strip}} </li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+
+
+I'm currently a third-year Ph.D. Student at The University of Iowa, working with [Prof. Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari). Before joining Uiowa, I spent two years as a research resident at VinAI Research and another six months as an AI Engineer, where I was lucky enough to work closely with [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) and [Dr. Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran), and many other talented people. I received my Bachelor's degree in Information Systems from Hanoi University of Science and Technology (HUST) in 2019.
+
+My research interests span machine learning, deep learning, and their applications, with a current focus on graph representation learning and deep generative models (VAEs, GANs, Diffusion) for graph and sequential data. I also have prior experience in active learning, Bayesian neural networks, and distributionally robust optimization. My long-term research goal is to develop data-efficient and robust deep learning models to accelerate their practical applications in real-world scenarios.
 
 # Biography
 
