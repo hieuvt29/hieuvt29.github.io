@@ -21,7 +21,6 @@ assign news = "
 {% for milestone in news %}
 {% assign milestone_arr = milestone | strip | split: "|" %}
 {{ milestone_arr[0] | strip }}: *{{ milestone_arr[1] | strip}}* 
-{% endif %}
 {% endfor %}
 </ul>
 
