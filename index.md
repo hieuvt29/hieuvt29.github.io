@@ -17,14 +17,13 @@ assign news = "
 " | split: '---' 
 %}
 
-```markdown
 <ul>
 {% for milestone in news %}
 {% assign milestone_arr = milestone | strip | split: "|" %}
-<li>{{ milestone_arr[0] | strip }}: *{{ milestone_arr[1] | strip}}*</li>
+<li>{{ milestone_arr[0] | strip }}: {{ milestone_arr[1] | strip}}</li>
 {% endfor %}
 </ul>
-```
+
 
 ## Biography
 
