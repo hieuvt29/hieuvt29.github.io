@@ -96,7 +96,7 @@ https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf
 
 {% for pub in publications %}
 {% assign pub_arr = pub | strip | split: "|" %}
-__<span style='font-size: 20px'> {{ pub_arr[0] | strip }} </span>__ <br> *{{ pub_arr[1] | strip}}* <br> {{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }})<br>
+__<span style='font-size: 18px'> {{ pub_arr[0] | strip }} </span>__ <br> *{{ pub_arr[1] | strip}}* <br> {{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }})<br>
 {% endfor %}
 
 
