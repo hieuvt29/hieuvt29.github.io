@@ -4,7 +4,7 @@ usemathjax: true
 ---
 
 
-# News
+## News
 
 {% 
 assign news = "
@@ -31,11 +31,9 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 {% endfor %}
 
 
-# Biography
+## Biography
 
-I am a third-year Ph.D. student in Computer Science at The University of Iowa, advised by [Prof. Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari). Prior to joining UIowa, I spent two years as a research resident at VinAI Research and another six months as an AI Engineer, where I was fortunate to work closely with [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) and [Dr. Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran), and many other talented colleagues. 
-
-I received my Bachelor's degree in Information Systems from Hanoi University of Science and Technology (HUST), where I worked as an undergraduate research assistant at the Data Science Lab under the mentorship of [Prof. Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ).
+I am a third-year Ph.D. student in Computer Science at The University of Iowa, advised by [Prof. Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari). Prior to joining UIowa, I spent two years as a research resident at VinAI Research and another six months as an AI Engineer, where I was fortunate to work closely with [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) and [Dr. Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran), and many other talented colleagues. I received my Bachelor's degree in Information Systems from Hanoi University of Science and Technology (HUST), where I worked as an undergraduate research assistant at the Data Science Lab under the mentorship of [Prof. Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ).
 
 My research interests span machine learning, deep learning, and their applications, with a current focus on graph representation learning and deep generative models (VAEs, GANs, Diffusion) for graph and sequential data. I also have prior experience in active learning, Bayesian neural networks, and distributionally robust optimization. My long-term research goal is to develop data-efficient and robust deep learning models to accelerate their practical applications in real-world scenarios.
 
@@ -68,7 +66,7 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 {% endif %}
 {% endfor %} -->
 
-# Publications
+## Publications
 
 {% 
 assign publications = "
@@ -103,18 +101,18 @@ __<span style='font-size: 20px'> {{ pub_arr[0] | strip }} </span>__ <br> *{{ pub
 
 
 
-# Awards
+## Awards
 
 __Excellence scholarship for the academic year of 2018 − 2019__ <br>
 *Granted for top 1% students with highest CPA of School of Information and Communication Technology, HUST*
 
-# Advisors
+## Advisors
 - Aug. 2022 - present: [Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari)
 - May. 2021 – Jan. 2022: [Viet-Anh Nguyen](https://vietanhnguyen.net)
 - Nov. 2019 – Jan. 2022: [Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran)
 - Jun. 2017 – Jun. 2019: [Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ) 
 
-# Collaborators
+## Collaborators
 - [Yongjian Zhong](https://yongjian16.github.io/)
 - [Akash Choudhuri](https://soothysay.github.io/)
 - [Man-Chung Yue](https://manchungyue.com/)
