@@ -8,28 +8,22 @@ usemathjax: true
 
 {% 
 assign news = "
-May. 2024 | Our paper on Efficient and Effective Implicit Dynamic Graph Neural Network has been accepted at KDD 2024.
+05/2024 | Our paper on Efficient and Effective Implicit Dynamic Graph Neural Network has been accepted at KDD 2024.
 ---
-Aug. 2022 | I have started my Ph.D. journey at The University of Iowa.
+08/2022 | I have started my Ph.D. journey at The University of Iowa.
 ---
-Feb. 2022 | Our paper on Distributionally Robust Fair Principal Components via Geodesic Descents has been accepted at ICLR 2022.
+02/2022 | Our paper on Distributionally Robust Fair Principal Components via Geodesic Descents has been accepted at ICLR 2022.
 
 " | split: '---' 
 %}
 
+<ul>
 {% for milestone in news %}
 {% assign milestone_arr = milestone | strip | split: "|" %}
-__<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip}}* 
-{% if milestone_arr.size > 2 %}
-{% assign subinfo = milestone_arr | slice:2, 6 %}
-<ul>
-{% for subs in subinfo %}
-<li style="font-size: small;"> {{subs | strip}} </li>
-{% endfor %}
-</ul>
+{{ milestone_arr[0] | strip }}: *{{ milestone_arr[1] | strip}}* 
 {% endif %}
 {% endfor %}
-
+</ul>
 
 ## Biography
 
