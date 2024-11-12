@@ -8,11 +8,11 @@ usemathjax: true
 
 {% 
 assign news = "
-05/2024 | Our paper on Efficient and Effective Implicit Dynamic Graph Neural Network has been accepted at KDD 2024.
+05/2024 | Our paper on Efficient and Effective Implicit Dynamic Graph Neural Network was accepted at KDD 2024.
 ---
 08/2022 | I have started my Ph.D. journey at The University of Iowa.
 ---
-02/2022 | Our paper on Distributionally Robust Fair Principal Components via Geodesic Descents has been accepted at ICLR 2022.
+02/2022 | Our paper on Distributionally Robust Fair Principal Components via Geodesic Descents was accepted at ICLR 2022.
 
 " | split: '---' 
 %}
