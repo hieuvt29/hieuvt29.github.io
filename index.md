@@ -7,18 +7,18 @@ usemathjax: true
 ## News
 
 {% 
-assign news = """
-05/2025 | Our paper, "Implicit Subgraph Neural Network", has been accepted to ICML 2025
+assign news = "
+05/2025 | Our paper, Implicit Subgraph Neural Network, has been accepted to ICML 2025
 ---
 05/2025 | We are in Alexandria, Virginia, USA for SDM 2025!
 ---
-12/2024 | Our paper, "Domain Knowledge Augmented Contrastive Learning on Dynamic Hypergraphs for Improved Health Risk Prediction", has been accepted to SDM 2025
+12/2024 | Our paper, Domain Knowledge Augmented Contrastive Learning on Dynamic Hypergraphs for Improved Health Risk Prediction, has been accepted to SDM 2025
 ---
-05/2024 | Our paper, "Efficient and Effective Implicit Dynamic Graph Neural Network", has been accepted to KDD 2024.
+05/2024 | Our paper, Efficient and Effective Implicit Dynamic Graph Neural Network, has been accepted to KDD 2024.
 ---
 08/2022 | I have started my Ph.D. journey at The University of Iowa.
 ---
-02/2022 | Our paper, "Distributionally Robust Fair Principal Components via Geodesic Descents", has been accepted to ICLR 2022.
+02/2022 | Our paper, Distributionally Robust Fair Principal Components via Geodesic Descents, has been accepted to ICLR 2022.
 
 """ | split: '---' 
 %}
