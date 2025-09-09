@@ -8,6 +8,7 @@ usemathjax: true
 
 {% 
 assign news = "
+
 05/2025 | Our paper, Implicit Subgraph Neural Network, has been accepted to ICML 2025
 ---
 05/2025 | We are in Alexandria, Virginia, USA for SDM 2025!
