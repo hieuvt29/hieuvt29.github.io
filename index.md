@@ -110,7 +110,7 @@ https://github.com/yongjian16/IDGNN
 ---
 Distributionally Robust Fair Principal Components via Geodesic Descents |
 __Hieu Vu*__, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
-[*ICLR, 2022*](https://openreview.net/forum?id=9NVd-DMtThY) |
+[*ICLR, 2022*](https://iclr.cc/virtual/2022/poster/6615) |
 https://arxiv.org/pdf/2202.03071.pdf |
 pdfs/slides_ICLR2022_RFPCA.pptx |
 https://github.com/hieuvt29/distributionally_robust_fair_pca
