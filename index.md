@@ -8,8 +8,11 @@ usemathjax: true
 
 {% 
 assign news = "
-
-05/2025 | Our paper, Implicit Subgraph Neural Network, has been accepted to ICML 2025
+05/2025 | Our paper, TempoBiGen: A Curated Generative Model for Healthcare Mobility Logs with Visit Duration, has been accepted to ADS track ECML-PKDD 2025.
+---
+05/2025 | Our paper, Contact Observations from an Intensive Care Unit, has been accepted to Nature Scientific Data Journal.
+---
+05/2025 | Our paper, Implicit Subgraph Neural Network, has been accepted to ICML 2025.
 ---
 05/2025 | We are in Alexandria, Virginia, USA for SDM 2025!
 ---
@@ -24,17 +27,19 @@ assign news = "
 """ | split: '---' 
 %}
 
-<ul>
+<div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9; margin-bottom: 20px;">
+<ul style="margin: 0; padding-left: 20px;">
 {% for milestone in news %}
 {% assign milestone_arr = milestone | strip | split: "|" %}
-<li>{{ milestone_arr[0] | strip }}: {{ milestone_arr[1] | strip}}</li>
+<li style="margin-bottom: 8px;">{{ milestone_arr[0] | strip }}: {{ milestone_arr[1] | strip}}</li>
 {% endfor %}
 </ul>
+</div>
 
 
 ## Biography
 
-I am a third-year Ph.D. student in Computer Science at The University of Iowa, advised by [Prof. Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari). Prior to joining UIowa, I spent two years as a research resident at [VinAI Research](https://www.vinai.io/) and another six months as an AI Engineer there, where I was fortunate to work closely with [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) and [Dr. Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran), and many other talented colleagues. I received my Bachelor's degree in Information Systems from Hanoi University of Science and Technology (HUST), where I worked as an undergraduate research assistant at the Data Science Lab under the mentorship of [Prof. Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ).
+I am a fourth-year Ph.D. student in Computer Science at The University of Iowa, advised by [Prof. Bijaya Adhikari](https://cs.uiowa.edu/people/bijaya-adhikari). Prior to joining UIowa, I spent two years as a research resident at [VinAI Research](https://www.vinai.io/) and another six months as an AI Engineer there, where I was fortunate to work closely with [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) and [Dr. Toan Tran](https://researchers.adelaide.edu.au/profile/toan.m.tran), and many other talented colleagues. I received my Bachelor's degree in Information Systems from Hanoi University of Science and Technology (HUST), where I worked as an undergraduate research assistant at the Data Science Lab under the mentorship of [Prof. Khoat Than](https://scholar.google.com.vn/citations?user=z2_6ZRYAAAAJ).
 
 My research interests span machine learning, deep learning, and their applications, with a current focus on graph representation learning and deep generative models (VAEs, GANs, Diffusion) for graph and sequential data. I also have prior experience in active learning, Bayesian neural networks, and distributionally robust optimization. My long-term research goal is to develop data-efficient and robust deep learning models to accelerate their practical applications in real-world scenarios.
 
@@ -71,25 +76,58 @@ __<span> {{ milestone_arr[0] | strip }} </span>__ : *{{ milestone_arr[1] | strip
 
 {% 
 assign publications = "
+TempoBiGen: A Curated Generative Model for Healthcare Mobility Logs with Visit Duration |
+__Hieu Vu__, Alberto M Segre, Bijaya Adhikari |
+[*ECML-PKDD, 2025*](https://link.springer.com/chapter/10.1007/978-3-032-06118-8_28) | https://link.springer.com/chapter/10.1007/978-3-032-06118-8_28 | 
+pdfs/slides_ECMLPKDD2025_TempoBiGen.pptx | 
+https://github.com/hieuvt29/TempoBiGen
+---
+Implicit Subgraph Neural Network |
+Yongjian Zhong, Liao Zhu, __Hieu Vu__, Bijaya Adhikari |
+[*ICML, 2025*](https://openreview.net/pdf?id=QhCb3FAQi2) |
+https://openreview.net/pdf?id=QhCb3FAQi2 | 
+'' |
+''
+---
+Domain Knowledge Augmented Contrastive Learning on Dynamic Hypergraphs for Improved Health Risk Prediction | 
+Akash Choudhuri, __Hieu Vu__, Kishlay Jha, and Bijaya Adhikari |
+[*SDM, 2025*](https://epubs.siam.org/doi/abs/10.1137/1.9781611978520.52) | https://epubs.siam.org/doi/abs/10.1137/1.9781611978520.52 |
+'' |
+'' 
+---
+Contact Observations from an Intensive Care Unit |
+__Hieu Vu__, Roger Struble, Philip M Polgreen, Bijaya Adhikari, Ted Herman |
+[*Nature Scientific Data Journal, 2025*](https://www.nature.com/articles/s41597-025-05249-5) | https://www.nature.com/articles/s41597-025-05249-5 |
+'' |
+https://doi.org/10.6084/m9.figshare.28826414.v3
+---
 Efficient and Effective Implicit Dynamic Graph Neural Network | 
 Yongjian Zhong, __Hieu Vu__, Tianbao Yang, Bijaya Adhikari |
 [*KDD, 2024*](https://dl.acm.org/doi/abs/10.1145/3637528.3672026) |
-https://arxiv.org/pdb/2406.17894.pdf
+https://arxiv.org/pdb/2406.17894.pdf |
+'' |
+https://github.com/yongjian16/IDGNN
 ---
 Distributionally Robust Fair Principal Components via Geodesic Descents |
 __Hieu Vu*__, Toan Tran, Man-Chung Yue, Viet Anh Nguyen |
 [*ICLR, 2022*](https://openreview.net/forum?id=9NVd-DMtThY) |
-https://arxiv.org/pdf/2202.03071.pdf
+https://arxiv.org/pdf/2202.03071.pdf |
+pdfs/slides_ICLR2022_RFPCA.pptx |
+https://github.com/hieuvt29/distributionally_robust_fair_pca
 ---
 Bayesian Metric Learning for Robust Training of Deep Models under Noisy Labels |
 __Hieu Vu*__, Toan Tran, Gustavo Carneiro |
 *preprint, 2020* |
-pdfs/2020_BDML.pdf
+pdfs/2020_BDML.pdf |
+'' |
+''
 ---
 MAP Estimation With Bernoulli Randomness, and Its Application to Text Analysis and Recommender Systems |
 Xuan Bui, __Hieu Vu__, Oanh Nguyen, Khoat Than |
 *IEEE Access, 2020* |
-https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf
+https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf |
+'' |
+''
 
 " | split: '---' 
 %}
@@ -97,7 +135,13 @@ https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf
 
 {% for pub in publications %}
 {% assign pub_arr = pub | strip | split: "|" %}
-__<span style='font-size: 18px'> {{ pub_arr[0] | strip }} </span>__ <br> *{{ pub_arr[1] | strip}}* <br> {{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }})<br>
+{% assign slides_url = pub_arr[4] | strip %}
+{% assign code_url = pub_arr[5] | strip %}
+__<span style='font-size: 18px'> {{ pub_arr[0] | strip }} </span>__ <br> 
+*{{ pub_arr[1] | strip}}* <br> 
+{{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }})
+{% if slides_url != "" %} - [SLIDES]({{ slides_url }}){% endif %}
+{% if code_url != "" %} - [CODE]({{ code_url }}){% endif %}<br>
 {% endfor %}
 
 
