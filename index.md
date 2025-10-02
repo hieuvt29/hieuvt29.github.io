@@ -86,26 +86,26 @@ Implicit Subgraph Neural Network |
 Yongjian Zhong, Liao Zhu, __Hieu Vu__, Bijaya Adhikari |
 [*ICML, 2025*](https://openreview.net/pdf?id=QhCb3FAQi2) |
 https://openreview.net/pdf?id=QhCb3FAQi2 | 
-'' |
-''
+. |
+.
 ---
 Domain Knowledge Augmented Contrastive Learning on Dynamic Hypergraphs for Improved Health Risk Prediction | 
 Akash Choudhuri, __Hieu Vu__, Kishlay Jha, and Bijaya Adhikari |
 [*SDM, 2025*](https://epubs.siam.org/doi/abs/10.1137/1.9781611978520.52) | https://epubs.siam.org/doi/abs/10.1137/1.9781611978520.52 |
-'' |
-'' 
+. |
+. 
 ---
 Contact Observations from an Intensive Care Unit |
 __Hieu Vu__, Roger Struble, Philip M Polgreen, Bijaya Adhikari, Ted Herman |
 [*Nature Scientific Data Journal, 2025*](https://www.nature.com/articles/s41597-025-05249-5) | https://www.nature.com/articles/s41597-025-05249-5 |
-'' |
+. |
 https://doi.org/10.6084/m9.figshare.28826414.v3
 ---
 Efficient and Effective Implicit Dynamic Graph Neural Network | 
 Yongjian Zhong, __Hieu Vu__, Tianbao Yang, Bijaya Adhikari |
 [*KDD, 2024*](https://dl.acm.org/doi/abs/10.1145/3637528.3672026) |
 https://arxiv.org/pdb/2406.17894.pdf |
-'' |
+. |
 https://github.com/yongjian16/IDGNN
 ---
 Distributionally Robust Fair Principal Components via Geodesic Descents |
@@ -119,15 +119,15 @@ Bayesian Metric Learning for Robust Training of Deep Models under Noisy Labels |
 __Hieu Vu*__, Toan Tran, Gustavo Carneiro |
 *preprint, 2020* |
 pdfs/2020_BDML.pdf |
-'' |
-''
+. |
+.
 ---
 MAP Estimation With Bernoulli Randomness, and Its Application to Text Analysis and Recommender Systems |
 Xuan Bui, __Hieu Vu__, Oanh Nguyen, Khoat Than |
 *IEEE Access, 2020* |
 https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf |
-'' |
-''
+. |
+.
 
 " | split: '---' 
 %}
@@ -140,8 +140,8 @@ https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf |
 __<span style='font-size: 18px'> {{ pub_arr[0] | strip }} </span>__ <br> 
 *{{ pub_arr[1] | strip}}* <br> 
 {{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }})
-{% if slides_url != "" %} - [SLIDES]({{ slides_url }}){% endif %}
-{% if code_url != "" %} - [CODE]({{ code_url }}){% endif %}<br>
+{% if slides_url != "." %} | [SLIDES]({{ slides_url }}) {% endif %}
+{% if code_url != "." %} | [CODE]({{ code_url }}) {% endif %}<br>
 {% endfor %}
 
 
