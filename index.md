@@ -104,7 +104,7 @@ https://doi.org/10.6084/m9.figshare.28826414.v3
 Efficient and Effective Implicit Dynamic Graph Neural Network | 
 Yongjian Zhong, __Hieu Vu__, Tianbao Yang, Bijaya Adhikari |
 [*KDD, 2024*](https://dl.acm.org/doi/abs/10.1145/3637528.3672026) |
-https://arxiv.org/pdb/2406.17894.pdf |
+https://arxiv.org/pdf/2406.17894 |
 . |
 https://github.com/yongjian16/IDGNN
 ---
