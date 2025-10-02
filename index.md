@@ -139,9 +139,7 @@ https://ieeexplore.ieee.org/iel7/6287639/8948470/09138369.pdf |
 {% assign code_url = pub_arr[5] | strip %}
 __<span style='font-size: 18px'> {{ pub_arr[0] | strip }} </span>__ <br> 
 *{{ pub_arr[1] | strip}}* <br> 
-{{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }})
-{% if slides_url != "." %} | [SLIDES]({{ slides_url }}) {% endif %}
-{% if code_url != "." %} | [CODE]({{ code_url }}) {% endif %}<br>
+{{ pub_arr[2] | strip}} - [PDF]({{ pub_arr[3] | strip }}){% if slides_url != "." %} | [SLIDES]({{ slides_url }}){% endif %}{% if code_url != "." %} | [CODE]({{ code_url }}){% endif %}<br>
 {% endfor %}
 
 
